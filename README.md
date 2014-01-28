@@ -23,7 +23,7 @@ Clone the angular-express-seed repository, run `npm install` to grab the depende
 
 Runs like a typical express app:
 
-    node app.js
+    npm start
 
 ### Running tests
 
@@ -48,12 +48,7 @@ Just fetch the changes and merge them into your project with git.
         directives.js   --> custom angular directives
         filters.js      --> custom angular filters
         services.js     --> custom angular services
-        lib/            --> angular and 3rd party JavaScript libraries
-          angular/
-            angular.js            --> the latest angular js
-            angular.min.js        --> the latest minified angular js
-            angular-*.js          --> angular add-on modules
-            version.txt           --> version number
+      components/       --> all client side libaries will be here including angularjs
     routes/
       api.js            --> route for serving JSON
       index.js          --> route for serving HTML pages and partials
